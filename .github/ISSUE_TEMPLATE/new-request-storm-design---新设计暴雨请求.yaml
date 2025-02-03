@@ -1,13 +1,9 @@
----
 name: New request storm design / 新设计暴雨请求
-about: As template name.
-title: ''
-labels: ''
-assignees: ''
+description: As template name.
+body:
+- type: markdown
 
----
-
-- type: textarea
+- type: input
   attributes:
     label: 公司/组织名称
     placeholder: |
@@ -15,7 +11,7 @@ assignees: ''
   validations:
     required: false
 
-- type: textarea
+- type: input
   attributes:
     label: 姓名
     placeholder: |
@@ -23,7 +19,7 @@ assignees: ''
   validations:
     required: false
 
-- type: textarea
+- type: input
   attributes:
     label: 邮箱
     placeholder: |
@@ -31,7 +27,7 @@ assignees: ''
   validations:
     required: false
 
-- type: textarea
+- type: input
   attributes:
     label: 详细地址
     placeholder: |
@@ -39,7 +35,7 @@ assignees: ''
   validations:
     required: true
 
-- type: textarea
+- type: input
   attributes:
     label: 行政区划
     placeholder: |
@@ -47,7 +43,7 @@ assignees: ''
   validations:
     required: true
 
-- type: textarea
+- type: input
   attributes:
     label: 经度
     placeholder: |
@@ -55,7 +51,7 @@ assignees: ''
   validations:
     required: true
 
-- type: textarea
+- type: input
   attributes:
     label: 维度
     placeholder: |
