@@ -1,5 +1,6 @@
 name: New request storm design / 新设计暴雨请求
 description: As template name.
+title: New request storm design / 新设计暴雨请求
 body:
 - type: markdown
   attributes:
