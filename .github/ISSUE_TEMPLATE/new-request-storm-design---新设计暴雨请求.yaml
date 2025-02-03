@@ -35,9 +35,8 @@ body:
   attributes:
     label: 是否发送邮件
     options:
-      - label: 是
+      - label: 是（请确保已填写邮箱）
       - label: 否
-    default: 0
   validations:
     required: true
     
