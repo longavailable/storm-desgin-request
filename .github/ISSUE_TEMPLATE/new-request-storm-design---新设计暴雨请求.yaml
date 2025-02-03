@@ -30,7 +30,14 @@ body:
       sanzhang2025@longlovemyu.com
   validations:
     required: false
-
+    
+- type: checkboxes
+  attributes:
+    label: 是否发送邮件
+    options:
+      - label: 是
+        required: true
+    
 - type: input
   attributes:
     label: 详细地址
