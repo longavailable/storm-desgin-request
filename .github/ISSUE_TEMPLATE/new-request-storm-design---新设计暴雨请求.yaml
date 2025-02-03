@@ -34,9 +34,10 @@ body:
 - type: checkboxes
   attributes:
     label: 是否发送邮件
+    default: one
     options:
-      - label: 是（请确保已填写邮箱）
-      - label: 否
+      - one: 是（请确保已填写邮箱）
+      - two: 否
   validations:
     required: true
     
