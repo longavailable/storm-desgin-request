@@ -31,10 +31,15 @@ body:
   validations:
     required: false
     
-- type: markdown
+    
+- type: checkboxes
   attributes:
-    value: |
-      - [x] 是否发送邮件
+    label: 是否发送邮件
+    options:
+      - label checked: 是（请确保已填写邮箱）
+      - label: 否
+  validations:
+    required: true
     
 - type: input
   attributes:
