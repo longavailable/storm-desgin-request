@@ -1,0 +1,64 @@
+---
+name: New request storm design / 新设计暴雨请求
+about: As template name.
+title: ''
+labels: ''
+assignees: ''
+
+---
+
+- type: textarea
+  attributes:
+    label: 公司/组织名称
+    placeholder: |
+      Github Inc
+  validations:
+    required: false
+
+- type: textarea
+  attributes:
+    label: 姓名
+    placeholder: |
+      张三
+  validations:
+    required: false
+
+- type: textarea
+  attributes:
+    label: 邮箱
+    placeholder: |
+      sanzhang2025@longlovemyu.com
+  validations:
+    required: false
+
+- type: textarea
+  attributes:
+    label: 详细地址
+    placeholder: |
+      **省**市**区**街道**路**号
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: 行政区划
+    placeholder: |
+      **省**市**区
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: 经度
+    placeholder: |
+      118.98888
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: 维度
+    placeholder: |
+      28.68888
+  validations:
+    required: true
