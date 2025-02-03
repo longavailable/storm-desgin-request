@@ -36,7 +36,10 @@ body:
     label: 是否发送邮件
     options:
       - label: 是
-        required: true
+      - label: 否
+    default: 0
+  validations:
+    required: true
     
 - type: input
   attributes:
